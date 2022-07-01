@@ -1,11 +1,10 @@
+
+
 import react from "react";
-import Home from "../components/home";
+import HomePage from "../components/form/index";
 
-export default function index() {
-  return <Home />;
+export default function Home() {
+  return (
+     <HomePage />
+  );
 }
-
-// install node modules to run the app "npm install"
-// run the app "npm start"
-
-// Read components/home/index.js page for more info
