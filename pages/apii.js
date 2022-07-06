@@ -1,4 +1,4 @@
-import Api from "../pages/apicall";
+import Api from "../components/callapi/index";
 
 export default function Form() {
   return (

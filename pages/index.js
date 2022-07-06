@@ -1,6 +1,9 @@
-import react from "react";
-import Home from "../components/home";
+import Api from "../components/API/index";
 
-export default function index() {
-  return <Home />;
+export default function Form() {
+  return (
+    <>
+      <Api />
+    </>
+  );
 }
