@@ -32,11 +32,12 @@ export default function index() {
             Page 4
           </li>
           <li
-            onClick={() => Router.push("/api1")}
+            onClick={() => Router.push("/call/api123")}
             className="cursor-pointer font-bold"
           >
             Page 5
           </li>
+
         </ul>
  </nav>
  </>
