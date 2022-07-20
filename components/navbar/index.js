@@ -37,6 +37,12 @@ export default function index() {
           >
             Page 5
           </li>
+          <li
+            onClick={() => Router.push("/GloryFurniture")}
+            className="cursor-pointer font-bold"
+          >
+            Page 6
+          </li>
 
         </ul>
  </nav>
